@@ -1,0 +1,132 @@
+/* Centralizar o formulário na página */
+.wizard-form {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    width: 600px;
+    margin: auto;
+    /* Centraliza o formulário */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona um leve sombreamento */
+    border-radius: 8px;
+    /* Canto arredondado */
+}
+
+/* Estilos para o header */
+.wizard-header {
+    height: 100px;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para o main */
+.wizard-main {
+    flex-grow: 1;
+    /* Permite que o main cresça para ocupar o espaço restante */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Estilos para o footer */
+.wizard-footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.form-input {
+    margin-bottom: 20px;
+    /* Define um espaçamento fixo */
+}
+
+.form-input .ui.error.message {
+    margin-bottom: 5px;
+    /* Ajusta a distância entre o input e a mensagem de erro */
+}
+
+
+
+.color-label-circle-active {
+    background-color: #135F99 !important;
+    color: #ffffff !important;
+    margin: 0px 9px !important;
+}
+
+.color-label-circle {
+    background-color: #8D8D99 !important;
+    color: #ffffff !important;
+    margin: 0px 9px !important;
+}
+
+.color-label-circle-sucess {
+    color: #1D8841 !important;
+    margin: 0px 9px !important;
+}
+
+.header-form {
+    color: #135F99 !important;
+}
+
+.blue-label {
+    color: #135F99 !important;
+}
+
+/* .ui.form .field {
+    margin-bottom: 0px !important;
+} */
+
+.buttons-internal-forms-contact {
+    display: flex;
+    justify-content: end;
+}
+
+.buttons-internal-forms-adress-verification {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-internal-forms-continous {
+    background-color: #135F99 !important;
+    color: #ffffff !important;
+}
+
+.btn-internal-forms-back {
+    background-color: #ffffff !important;
+    color: #135F99 !important;
+}
+
+/**/
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*formulario verficacao*/
+.msg-codigo-verificacao {
+    color: brown;
+    margin: 0px !important;
+}
+
+.container-reenviar-codigo {
+    margin: 20px 0px;
+    color: #135F99;
+}
+
+.container-aceitar-politica {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    margin: 20px 0px;
+}
